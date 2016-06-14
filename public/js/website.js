@@ -1,6 +1,6 @@
-$(funciton) {
-  $("#top").scrollintoview();
-  $("#middle").scrollintoview();
-  $("#bottom").scrollintoview();
+// $(funciton) {
+//   $("#top").scrollintoview();
+//   $("#middle").scrollintoview();
+//   $("#bottom").scrollintoview();
 
-}
+// }
