@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="website.css">
+  <title>Robin's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="public/css/website.css">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <script src="website.js"></script>
+  <script src="public/js/website.js"></script>
   <script src="jquery-1.12.4.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <button class="btn btn-danger"></button>
-
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="navbar-brand" href="#">WebSiteName</a></li>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#top">About</a></li>
+        <li><a href="#middle">Portfolio</a></li>
+        <li><a href="#bottom">Connect</a></li>
+      </ul>
     </div>
+  </nav>
+<!--     <a href="#top">Top</a>
+    <a href="#middle">Middle</a>
+    <a href="#bottom">Bottom</a> -->
 
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-1" id="top">
+        top
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1" id="middle">
+        middle
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1" id="bottom">
+        bottom
+      </div>
+    </div>
   </div>
-
+<!--   <div id="top"><a href="top"></a>Top</div>
+  <div id="middle"><a href="middle"></a>Middle</div>
+  <div id="bottom"><a href="bottom"></a>Bottom</div> -->
 </body>
 </html>
