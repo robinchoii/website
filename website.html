@@ -4,45 +4,92 @@
   <title>Robin's Portfolio</title>
   <link rel="stylesheet" type="text/css" href="public/css/website.css">
   <script src="public/js/website.js"></script>
+
+  <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"</script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="navbar-brand" href="#">WebSiteName</a></li>
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#top">About</a></li>
-        <li><a href="#middle">Portfolio</a></li>
-        <li><a href="#bottom">Connect</a></li>
-      </ul>
+<body id="page-top">
+
+  <!-- Navigation Section -->
+  <section id="navigation-bar">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#page-top">Robin Choi</a>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="page-scroll"><a href="#">Home</a></li>
+          <li class="page-scroll"><a href="#top">About</a></li>
+          <li class="page-scroll"><a href="#middle">Portfolio</a></li>
+          <li class="page-scroll"><a href="#bottom">Connect</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Heading Section -->
+  <section id="heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 profile">
+          <img src="public/img/profile.jpg" class="img-responsive img-circle center-block">
+          <div class="profile-info">
+            <p class="text-center">Robin Choi</p>
+            <hr class="star-light"></hr>
+            <p class="text-center">Web Developer</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- container -->
+  </section> <!-- heading close -->
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="portfolio-header">
+          <h1 class="text-center">Portfolio</h1>
+        </div>
+
+        <div class="col-md-4" id="top">
+          <h3 class="text-center">LEFT</h3>
+        </div>
+
+        <div class="col-md-4" id="top">
+          <h3 class="text-center">MIDDLE</h3>
+
+        </div>
+
+        <div class="col-md-4" id="top">
+          <h3 class="text-center">RIGHT</h3>
+        </div>
+      </div> <!-- row close -->
+
+    </div> <!-- container close -->
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-text text-center col-lg-12">
+          <h1>  About</h1>
+          <div class="about-text">
+            First solve the problem, then right the code.  I am full stack developer who likes
+
+
+          </div>
+        </div>
+      </div>
     </div>
-  </nav>
-<!--     <a href="#top">Top</a>
-    <a href="#middle">Middle</a>
-    <a href="#bottom">Bottom</a> -->
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4" id="top">
-        <h3 class="text-primary">Robin Choi</h3>
-        <!-- <p>First solve the problem, then write the code.  I am recent graduate out of Dev Bootcamp</p> -->
-      </div>
-
-      <div class="col-md-4" id="top">
-        <h3>MIDDLE</h3>
-
-      </div>
-
-      <div class="col-md-4" id="top">
-        <h3>RIGHT</h3>
-      </div>
-
-    </div>
-  </div>
+  </section>
 </body>
 </html>
