@@ -19,3 +19,28 @@ body {
   background-color: black;
   /*color: white;*/
 }
+
+/*#profile-pic {
+  width: 200px;
+  height: 200px;
+}*/
+#heading {
+  background-color: white;
+}
+  .profile {
+    padding-top: 20px;
+  }
+  .profile-info {
+    padding: 20px;
+  }
+
+
+#portfolio {
+  background-color: green;
+
+}
+
+#about {
+  background-color: yellow;
+
+}
