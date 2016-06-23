@@ -1,31 +1,31 @@
-body {
-  background-color:blue;
-  /*background-image: url(../pictures/wood.jpg);*/
+#navigation-bar {
+  font-family: georgia;
+
+
 }
+  .navbar li{
+    color: white;
+    text-decoration: none;
+  }
+  .nav.navbar-nav.navbar-right li a {
+    color: black;
+  }
+  .navbar-brand{
+    color: black;
+  }
+  .navbar-custom {
+    background-color: #90BEDE;
+    /*background-color: #16425B; blue*/
+  }
 
-/*#top,#middle,#bottom{
-    height: 600px;
-    width: 300px;
-    background: green;
-}*/
 
-#top {
-  background-color: white;
-  /*opacity: .5;*/
-  /*font-size: 12px;*/
-}
-
-.navbar {
-  background-color: black;
-  /*color: white;*/
-}
-
-/*#profile-pic {
-  width: 200px;
-  height: 200px;
-}*/
 #heading {
-  background-color: white;
+
+  /*background-color: #D9DCD6; blue*/
+  background-color: #F0FFCE;
+  padding: 50px;
+  font-family: georgia;
+
 }
   .profile {
     padding-top: 20px;
@@ -36,11 +36,40 @@ body {
 
 
 #portfolio {
-  background-color: green;
+
+  background-color: #FFFA9E;
+  /*background-color: #B4D2E7;*/
+  padding: 200px;
+  /*color: white;*/
+  font-family: georgia;
+}
+  .portfolio-header {
+
+  }
+  #project1 #project2 #project3 {
+    /*background-color: #81C3D7; blue*/
+    background-color: #94C5CC;
+
+  }
+
+#about {
+  /*background-color: #3A7CA5; blue*/
+  background-color: #A1A6B4;
+  padding: 200px;
+  color: white;
+  font-family: georgia;
 
 }
 
-#about {
-  background-color: yellow;
+#connect {
+  background-color: #90BEDE;
+  padding: 50px;
+  font-family: georgia;
 
+
+}
+
+body {
+  text-decoration: none;
+  color: black
 }

@@ -1,6 +1,6 @@
-// $(funciton) {
-//   $("#top").scrollintoview();
-//   $("#middle").scrollintoview();
-//   $("#bottom").scrollintoview();
+$(funciton) {
+  $("#project1").hover();
+  $("#project2").hover();
+  $("#project3").hover();
 
-// }
+}
