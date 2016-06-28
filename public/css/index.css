@@ -1,17 +1,24 @@
-#navigation-bar {
-
+.navigation-bar {
+  padding-right:30px;
 }
 
 #heading {
-
+  padding: 200px 100px 100px 100px;
+  background-color: blue;
 }
  #portfolio {
+  padding: 500px;
+  background-color: green;
 
  }
  #about {
+  padding: 500px;
+  background-color: red;
 
  }
 
  #connect {
+  padding: 500px;
+  background-color: yellow;
 
  }
