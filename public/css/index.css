@@ -1,21 +1,17 @@
-body {
-  background-color:blue;
-  /*background-image: url(../pictures/wood.jpg);*/
+#navigation-bar {
+
 }
 
-/*#top,#middle,#bottom{
-    height: 600px;
-    width: 300px;
-    background: green;
-}*/
+#heading {
 
-#top {
-  background-color: white;
-  /*opacity: .5;*/
-  /*font-size: 12px;*/
 }
+ #portfolio {
 
-.navbar {
-  background-color: black;
-  /*color: white;*/
-}
+ }
+ #about {
+
+ }
+
+ #connect {
+
+ }
