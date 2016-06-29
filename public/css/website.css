@@ -9,9 +9,11 @@
   }
   .nav.navbar-nav.navbar-right li a {
     color: black;
+    font-weight: bold;
   }
   .navbar-brand{
     color: black;
+    font-weight: bold;
   }
   .navbar-custom {
     background-color: #90BEDE;
@@ -21,8 +23,8 @@
 
 #heading {
 
-  /*background-color: #D9DCD6; blue*/
-  background-color: #F0FFCE;
+  background-color: #FFF7F7;
+  /*background-color: #F0FFCE;*/
   padding: 50px;
   font-family: georgia;
 
@@ -37,8 +39,8 @@
 
 #portfolio {
 
-  background-color: #FFFA9E;
-  /*background-color: #B4D2E7;*/
+  /*background-color: #FFFA9E;*/
+  background-color: #B4D2E7;
   padding: 200px;
   /*color: white;*/
   font-family: georgia;
@@ -48,7 +50,7 @@
   }
   #project1 #project2 #project3 {
     /*background-color: #81C3D7; blue*/
-    background-color: #94C5CC;
+    /*background-color: #B4D2E7;*/
 
   }
 
@@ -58,11 +60,13 @@
   padding: 200px;
   color: white;
   font-family: georgia;
-
 }
+  .about-text {
+    font-size: 20px
+  }
 
 #connect {
-  background-color: #90BEDE;
+  background-color: #B4D2E7;
   padding: 50px;
   font-family: georgia;
 
