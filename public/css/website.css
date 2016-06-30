@@ -1,0 +1,79 @@
+#navigation-bar {
+  font-family: georgia;
+
+
+}
+  .navbar li{
+    color: white;
+    text-decoration: none;
+  }
+  .nav.navbar-nav.navbar-right li a {
+    color: black;
+    font-weight: bold;
+  }
+  .navbar-brand{
+    color: black;
+    font-weight: bold;
+  }
+  .navbar-custom {
+    background-color: #90BEDE;
+    /*background-color: #16425B; blue*/
+  }
+
+
+#heading {
+
+  background-color: #FFF7F7;
+  /*background-color: #F0FFCE;*/
+  padding: 50px;
+  font-family: georgia;
+
+}
+  .profile {
+    padding-top: 20px;
+  }
+  .profile-info {
+    padding: 20px;
+  }
+
+
+#portfolio {
+
+  /*background-color: #FFFA9E;*/
+  background-color: #B4D2E7;
+  padding: 200px;
+  /*color: white;*/
+  font-family: georgia;
+}
+  .portfolio-header {
+
+  }
+  #project1 #project2 #project3 {
+    /*background-color: #81C3D7; blue*/
+    /*background-color: #B4D2E7;*/
+
+  }
+
+#about {
+  /*background-color: #3A7CA5; blue*/
+  background-color: #A1A6B4;
+  padding: 200px;
+  color: white;
+  font-family: georgia;
+}
+  .about-text {
+    font-size: 20px
+  }
+
+#connect {
+  background-color: #B4D2E7;
+  padding: 50px;
+  font-family: georgia;
+
+
+}
+
+body {
+  text-decoration: none;
+  color: black
+}
