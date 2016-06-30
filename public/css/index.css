@@ -1,0 +1,55 @@
+.navigation-bar {
+  padding-right:30px;
+}
+  .navigation-bar {
+    background-color: #0D1F2D;
+  }
+  .navbar-text  {
+  /*background-color: #38618C;*/
+  color:white;
+  font-weight: bold;
+
+  }
+  #menu-dropdown li a:hover{
+    background-color: #FAF3DD;
+
+    color:black;
+    }
+  #menu-dropdown li a{
+    /*background-color: #FAF3DD;*/
+    color:white;
+    }
+
+#heading {
+  padding: 200px 100px 100px 100px;
+  background-color: #FAF3DD;
+}
+ #portfolio {
+  padding: 100px;
+  background-color: #38618C;
+ }
+  .portfolio-header {
+    color:#FAF3DD;
+  }
+  .portfolio-text {
+    color:#FAF3DD;
+
+  }
+
+ #about {
+  padding: 100px;
+  background-color: #FAF3DD;
+
+ }
+
+ #connect {
+  padding: 100px;
+  background-color: #38618C;
+ }
+  .connect-header {
+    color:#FAF3DD;
+  }
+
+footer {
+  background-color:#FAF3DD;
+}
