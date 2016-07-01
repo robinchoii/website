@@ -8,6 +8,7 @@
   /*background-color: #38618C;*/
   color:white;
   font-weight: bold;
+  font-family: georgia;
 
   }
   #menu-dropdown li a:hover{
@@ -24,16 +25,19 @@
   padding: 200px 100px 100px 100px;
   background-color: #FAF3DD;
 }
+  .profile-info {
+    font-family: georgia;
+  }
  #portfolio {
   padding: 100px;
   background-color: #38618C;
+  font-family: georgia;
  }
   .portfolio-header {
     color:#FAF3DD;
   }
   .portfolio-text {
     color:#FAF3DD;
-
   }
 
  #about {
@@ -48,6 +52,9 @@
  }
   .connect-header {
     color:#FAF3DD;
+  }
+  .connect-text a {
+    color: #FAF3DD;
   }
 
 footer {
