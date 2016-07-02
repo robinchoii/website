@@ -5,11 +5,12 @@
 
   <link rel="stylesheet" type="text/css" href="public/css/index.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <!-- // <script src="public/js/index.js"></script> -->
   <script src="public/js/index.js"></script>
-
 
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -84,7 +85,7 @@
       <!-- project 1 -->
       <div class="row">
         <div class="col-md-6">
-          <a href='https://github.com/robinchoii/PickUp'><img class="img-responsive img-thumbnail" src="public/img/PickUp.png"></a>
+          <a href='https://github.com/robinchoii/PickUp' class="projects"><img class="img-responsive img-thumbnail" src="public/img/PickUp.png"></a>
         </div>
 
         <div class="col-md-6 portfolio-text text-right">
@@ -97,7 +98,7 @@
       <!-- project 2 -->
       <div class='row'>
         <div class="col-md-6">
-          <a href='https://github.com/robinchoii/passion-flapper-news'><img class="img-responsive img-thumbnail" src="public/img/FlapperNews.jpg"></a>
+          <a href='https://github.com/robinchoii/passion-flapper-news' class='projects'><img class="img-responsive img-thumbnail" src="public/img/FlapperNews.jpg"></a>
         </div>
 
         <div class="col-md-6 portfolio-text text-right">
@@ -110,7 +111,7 @@
       <!-- project 3  -->
       <div class='row'>
         <div class="col-md-6">
-          <a href='https://github.com/robinchoii/ecommerce'><img class="img-responsive img-thumbnail" src="public/img/BestSellers.png"></a>
+          <a href='https://github.com/robinchoii/ecommerce' class='projects'><img class="img-responsive img-thumbnail" src="public/img/BestSellers.png"></a>
         </div>
 
         <div class="col-md-6 portfolio-text text-right">
@@ -145,18 +146,52 @@
   </section><!-- section close -->
 
     <!-- Connect Section -->
-  <section id="connect">
-    <div class="container">
-      <div class="row">
-        <div class="connect-text text-center col-lg-12">
-          <h1 class="connect-header"> Connect</h1>
-          <a href="https://twitter.com/robinchoi" class="social btn fa fa-twitter"></a>
-          <a href="https://linkedin.com/in/robinchoii" class="social btn btn-lrg fa fa-linkedin"></a>
-          <a href="https://github.com/robinchoii" class="social btn fa fa-github"></a>
-        </div> <!-- about-text close -->
-      </div> <!-- row close -->
-    </div> <!-- container close -->
-  </section><!-- connect close -->
+    <section id="connect">
+      <div class="container">
+        <div class="row">
+          <div class="connect-text text-center col-lg-12">
+            <h1 class="connect-header"> Connect</h1>
+            <a href="https://twitter.com/robinchoi" class="social btn fa fa-twitter"></a>
+            <a href="https://linkedin.com/in/robinchoii" class="social btn btn-lrg fa fa-linkedin"></a>
+            <a href="https://github.com/robinchoii" class="social btn fa fa-github"></a>
+          </div> <!-- about-text close -->
+        </div> <!-- row close -->
+        <br><br>
+        <div class='row'>
+          <form class="contact form-horizontal col-md-8 col-md-offset-2" role="form" method="post" action="index.php">
+            <div class="form-group">
+              <label for="name" class="col-sm-2 control-label">Name</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message" class="col-sm-2 control-label">Message</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="4" name="message"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-10 col-sm-offset-2">
+                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div> <!-- container close -->
+    </section><!-- connect close -->
 
 </body>
 

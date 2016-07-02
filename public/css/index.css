@@ -28,7 +28,8 @@
   }
 
 #heading {
-  padding: 200px 100px 100px 100px;
+  padding-top: 150px;
+  padding-bottom: 50px;
   background-color: #FAF3DD;
 }
   .profile-info {
@@ -84,7 +85,15 @@
   .connect-text a {
     color: #FAF3DD;
   }
+  .contact {
+    border-style: solid;
+    border-color: black;
+    padding: 40px;
+    background-color: #FAF3DD;
+  }
+
 
 footer {
   background-color:#FAF3DD;
 }
+
