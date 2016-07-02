@@ -29,7 +29,7 @@
     <nav class="navbar navbar-fixed-top navigation-bar navbar-custom" role="navigation">
       <a class="navbar-brand navbar-text" href="#page-top">Robin Choi</a>
 
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-dropdown"> Menu <i class="fa fa-bars"></i></button>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-dropdown"> Menu <i class="fa fa-bars fa-custom"></i></button>
 
       <div class="collapse navbar-collapse" id="menu-dropdown">
         <ul class="nav navbar-nav navbar-right">
@@ -52,14 +52,14 @@
           <div class="profile-info">
             <h1 class="text-center">Robin Choi</h1>
             <!-- <hr></hr> -->
-            <h1 class="text-center">Web Developer</h1>
+            <h3 class="text-center">Web Developer</h3>
           </div>
         </div>
       </div> <!-- row close -->
     </div> <!-- container -->
   </section> <!-- heading close -->
 
-
+        <!-- grid style layout of projects -->
         <!-- <div class="col-md-4 portfolio-text" id="project1">
           <h3 class="text-center">Pick Up</h3>
           <a href='https://github.com/robinchoii/PickUp'><img class="img-responsive img-rounded" src="public/img/PickUp.png"></a>
@@ -79,7 +79,7 @@
     <div class="container">
 
       <div class="portfolio-header">
-        <h1 class="text-center">Portfolio</h1>
+        <h1 class="text-center portfolio-header">Portfolio</h1>
       </div>
       <!-- project 1 -->
       <div class="row">
@@ -88,7 +88,7 @@
         </div>
 
         <div class="col-md-6 portfolio-text text-right">
-          <h3>Pick Up</h3>
+          <a href='https://github.com/robinchoii/PickUp'><h3 class='project-title'>Pick Up</h3></a>
           <p> A web application to connect people by playing sports. From one on one to groups activities, PickUp finds events nearby based off your location using the Google Maps API.  Primarily built using Ruby on Rails and Javascript with PostgreSQL on the backend. jQuery and AJAX to make the site dynamic and interactive. </p>
         </div>
       </div>
@@ -101,8 +101,8 @@
         </div>
 
         <div class="col-md-6 portfolio-text text-right">
-          <h3>Flapper News</h3>
-          <p> Flapper News is a single page application to post interesting articles we find around the internet.  This was a quick project for the purpose of learning AngularJs and the basic fundamentals to build powerful front-end applications.   </p>
+          <a href='https://github.com/robinchoii/passion-flapper-news'><h3 class='project-title'>Flapper News</h3></a>
+          <p> Flapper News is a single page application to post interesting articles we find around the internet.  This was a quick project for the purpose of learning AngularJs and the basic fundamentals to build powerful front-end applications. I learned more about directives, two-way data binding, controllers and much more. </p>
         </div>
       </div>
       <br><br>
@@ -114,8 +114,8 @@
         </div>
 
         <div class="col-md-6 portfolio-text text-right">
-          <h3>Shop n Stop</h3>
-          <p>Shop n Stop is an e-commerce website I created for buying products using the Stripe API.  I have implemented Elasticsearch to help you find your items as well a category section to help narrow down your search.  Anyone can sign up for free with and email address and start shopping.  Primarily built using node.js  </p>
+          <a href='https://github.com/robinchoii/ecommerce'><h3 class='project-title'>Shop n Stop</h3></a>
+          <p>Shop n Stop is an e-commerce website I created for buying products using the Stripe API.  I have implemented Elasticsearch to help you find your items as well a category section to help narrow down your search.  Anyone can sign up for free with and email address and start shopping.  Primarily built with node.js, HTML5, CSS3 and jQuery connected to monogoDB database.  </p>
         </div>
 
       </div> <!-- row close -->
@@ -126,22 +126,18 @@
   <section id="about">
     <div class="container">
       <div class="row">
-        <div class="about-text text-center col-lg-12">
-          <h1>  About</h1>
+        <div class="about-text col-lg-12">
+          <h1 class="about-header  text-center "> About </h1>
 
-          <div class="about-text col-md-6">
-            First solve the problem, then right the code.  I am full stack developer who likes
-            First solve the problem, then right the code.  I am full stack developer who likes
-            First solve the problem, then right the code.  I am full stack developer who likes
-            First solve the problem, then right the code.  I am full stack developer who likes
+          <div class="about-text col-md-6 col-md-offset-3">
+            <p>First solve the problem, then right the code.  I am developer who loves to play sports, eat delicious food, and learn new technologies. </p>
+            <p>I am a former restaurant manager who helped start a family restaurant which is now known as the best Korean food in the greater Seattle area.  Now a recent graudated web developer out of San Francisco's top coding bootcamp, Dev Bootcamp.</p>
+            <p>Proficient in Ruby on Rails and MEAN stack to build web applications from the scratch. Knowledgeable in relational and non relational databases to connect to the front-end. Experienced in MVC frameworks, object oriented programming, agile development and testing. Loves to take on new challenges and embraces the confusion.</p>
           </div>
 
-          <div class="about-text col-md-6">
-            First solve the problem, then right the code.  I am full stack developer who likes
-            First solve the problem, then right the code.  I am full stack developer who likes
-            First solve the problem, then right the code.  I am full stack developer who likes
-            First solve the problem, then right the code.  I am full stack developer who likes
-          </div>
+<!--           <div class="about-text col-md-6">
+            First solve the problem, then right the code.  I am full stack developer who loves to play sports, eat delicious food, and learn new technologies. I am competitive both on and off court so do not let your guard down.
+          </div> -->
         </div> <!-- about-text close -->
       </div> <!-- row close -->
     </div> <!-- container close -->
@@ -162,6 +158,7 @@
   </section><!-- connect close -->
 
 </body>
+
 <footer>
   <span> &copy; Copyright 2016 Robin Choi</span>
 </footer>

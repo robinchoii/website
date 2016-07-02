@@ -20,6 +20,12 @@
     /*background-color: #FAF3DD;*/
     color:white;
     }
+  .fa-custom {
+    color: white;
+  }
+  .navbar-toggle {
+    color:white;
+  }
 
 #heading {
   padding: 200px 100px 100px 100px;
@@ -28,30 +34,52 @@
   .profile-info {
     font-family: georgia;
   }
- #portfolio {
+#portfolio {
   padding: 100px;
   background-color: #38618C;
   font-family: georgia;
  }
   .portfolio-header {
     color:#FAF3DD;
+    font-size: 40px;
+    font-style: italic;
   }
   .portfolio-text {
-    color:#FAF3DD;
+    /*color:#FAF3DD;*/
+    font-size: 18px;
+    color:white;
+
+  }
+  .project-title {
+    text-decoration: underline;
+    font-size: 30px;
+    color: #FAF3DD;
   }
 
- #about {
+#about {
   padding: 100px;
   background-color: #FAF3DD;
-
+  font-family: georgia;
  }
+  .about-header {
+    font-size: 40px;
+    font-style: italic;
+  }
+  .about-text {
+    font-size: 18px;
 
- #connect {
+  }
+
+#connect {
   padding: 100px;
   background-color: #38618C;
- }
+  font-family: georgia;
+}
   .connect-header {
     color:#FAF3DD;
+    font-size:40px;
+    font-style: italic;
+
   }
   .connect-text a {
     color: #FAF3DD;
